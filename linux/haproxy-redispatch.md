@@ -1,4 +1,4 @@
-# HAPROXY REDISPATCH
+# HAProxy redispatch
 
 <https://www.haproxy.com/documentation/haproxy-configuration-tutorials/service-reliability/retries/>
 
