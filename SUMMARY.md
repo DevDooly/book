@@ -7,5 +7,5 @@
   * [Kafka](hadoop-ecosystem/kafka.md)
 * [Java](java/README.md)
   * [Release](java/release/README.md)
-    * [Page 2](java/release/page-2.md)
+    * [Future](java/release/future.md)
 * [SpringBoot](springboot/README.md)
