@@ -1,5 +1,5 @@
 ---
-icon: linux
+icon: java
 ---
 
 # Java

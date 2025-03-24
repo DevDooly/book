@@ -1,5 +1,5 @@
 ---
-icon: linux
+icon: envira gallay
 ---
 
 # Hadoop Ecosystem
