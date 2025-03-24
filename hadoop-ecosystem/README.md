@@ -1,5 +1,5 @@
 ---
-icon: envira gallay
+icon: Elephant
 ---
 
 # Hadoop Ecosystem

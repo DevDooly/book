@@ -1,5 +1,5 @@
 ---
-icon: linux
+icon: Envira Gallay
 ---
 
 # SpringBoot
