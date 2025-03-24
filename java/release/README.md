@@ -19,9 +19,11 @@
 * **패턴 매칭 for instanceof**
 * **Sealed Classes**
 * **Foreign Function & Memory API(실험적 기능)**
+* **SpringBoot 3 버전 이상 사용시 지원**
 
 ### **Java SE 21 (2023)**
 
 * **Virtual Threads (가상 스레드, Project Loom)**
 * **Record Patterns (레코드 패턴 매칭)**
 * **Sequenced Collections (순서 보장 컬렉션 API)**
+* **SpringBoot 3.2 버전 이상 사용시 지원**
