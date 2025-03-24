@@ -2,4 +2,7 @@
 
 * [book](README.md)
 * [linux](linux/README.md)
-  * [HAPROXY REDISPATCH](linux/haproxy-redispatch.md)
+  * [HAProxy redispatch](linux/haproxy-redispatch.md)
+* [Hadoop Ecosystem](hadoop-ecosystem/README.md)
+* [Java](java/README.md)
+* [SpringBoot](springboot/README.md)
