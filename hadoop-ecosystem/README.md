@@ -1,5 +1,5 @@
 ---
-icon: Elephant
+icon: elephant
 ---
 
 # Hadoop Ecosystem
