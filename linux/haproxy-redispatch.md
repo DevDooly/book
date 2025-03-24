@@ -7,7 +7,7 @@ haproxy 는 기본적으로 Failover 가 아닌 Load Balancing 을 수행한다.
 
 retry, redispatch 기능을 사용해 서버가 연결 실패하는 경우 자동으로 재연결을 시도하거나, 다른 서버로 요청을 한다.
 
-## RETRY
+## retry
 
 기본적으로 haproxy 는 연결 실패 시 3번까지 재시도한다.
 
@@ -25,11 +25,13 @@ backend webservers
 
 재시도는 최대 4회, 간격을 3초로 설정한다.
 
-## REDISPATCH
+## redispatch
 
 특정 서버에 연결이 게속 실패하는 경우 해당 옵션을 사용해서 요청을 재분배한다.
 
 `option redispatch` (래디스페치 아니고 리 디스페치...)
+
+backend, frontend 에 대해서만 수행하며 listen 은 수행하지 않는다 (db 같은 port forwarding 은 사용 불가)
 
 ```ini
 backend webservers
