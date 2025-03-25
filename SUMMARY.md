@@ -11,4 +11,4 @@
     * [Future](java/release/page-2.md)
 * [SpringBoot](springboot/README.md)
 * [Kubernetes](kubernetes/README.md)
-  * [Use PostgreSQL(DB)](k8s-on-postgresql/READMD.md)
+  * [Use PostgreSQL(DB)](kubernetes/k8s-on-postgresql.md)
