@@ -5,7 +5,7 @@
   * [HAProxy redispatch](linux/haproxy-redispatch.md)
 * [Hadoop Ecosystem](hadoop-ecosystem/README.md)
   * [Kafka](hadoop-ecosystem/kafka/README.md)
-    * [TroubleShooting](hadoop-ecosystem/kafka/troubleshooting.md)
+    * [consumer.poll() & session.timeout.ms](hadoop-ecosystem/kafka/consumer_poll-session_timeout_ms.md)
 * [Java](java/README.md)
   * [Sites](java/sites.md)
   * [Release](java/release/README.md)
