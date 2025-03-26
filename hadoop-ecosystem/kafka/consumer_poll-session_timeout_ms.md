@@ -7,7 +7,10 @@
 * consumer.poll() 과 session.timeout.ms 의 상관관계
 * heartbeat.interval.ms 와의 추가적인 관계
 
-참고자료 : https://docs.confluent,io/platform/current/installation/configuration/consumer-configs.html
+**참고자료**
+
+ * https://docs.confluent.io/platform/current/installation/configuration/consumer-configs.html
+ * https://codemia.io/knowledge-hub/path/kafka_is_giving_the_group_member_needs_to_have_a_valid_member_id_before_actually_entering_a_consumer_group 
 
 ## consumer.poll()
 
