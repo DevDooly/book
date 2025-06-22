@@ -1,19 +1,24 @@
 ---
-icon: java
+icon: monument
 ---
 
 # Harbor
 
+## Harbor
+
 공식문서
- * https://goharbor.io/docs/2.12.0/
- * https://github.com/goharbor/harbor
+
+* https://goharbor.io/docs/2.12.0/
+* https://github.com/goharbor/harbor
 
 데모 페이지
-  * https://demo.goharbor.io/
+
+* https://demo.goharbor.io/
 
 Harbor 는 '컨테이너 이미지' 의 레지스트리 오픈소스로 이미지를 효율적이고 안전하게 관리할 수 있는 프로젝트이다.
 
-# 주요 기능
+## 주요 기능
+
 * 클라우드 네이티브 레지스트리 (Cloud Native Registry)
   * 컨테이너 이미지, Helm Chart 를 클라우드 네이티브 환경에서 지원한다.
 * RBAC (Role-Based Access Control)
@@ -46,14 +51,18 @@ Harbor 는 '컨테이너 이미지' 의 레지스트리 오픈소스로 이미�
 * Easy Deployment
   * Docker Compose, Helm Charts 로 설치 제공
 
-# Architecture
--- https://goharbor.io/docs/1.10/img/ha.png
+## Architecture
 
-# Load Balancer
-HA ㅜ성을 위해 ingress controller 을 설치하고 load balance 를 수행한다.
+<figure><img src="https://goharbor.io/docs/1.10/img/ha.png" alt=""><figcaption></figcaption></figure>
 
-# HA pgSQL
+## Load Balancer
+
+HA 구성을 위해 ingress controller 을 설치하고 load balance 를 수행한다.
+
+## HA pgSQL
+
 postgreSQL 는 메타데이터 저장소로 활용된다.
+
 * 프로젝트 정보
 * 사용자 정보 및 권한
 * 이미지 태그, 아티팩트 정보 등
@@ -61,16 +70,20 @@ postgreSQL 는 메타데이터 저장소로 활용된다.
 
 자체적으로 pgSQL Pod 을 제공하지만 HA 구성을 위해서는 별도로 구성된 pgSQL 이 필요하다.
 
-# HA Redis
-redis 에 로그인 세션, 토큰 등 임시 정보를 저장한다.
+## HA Redis
+
+redis 에 로그인 세션, 토큰 등 임시 정보를 저장한다.\
 pgSQL 과 마찬가지로 HA 구성을 위해서는 별도 구성이 필요.
 
-# Clair (or Trivy)
+## Clair (or Trivy)
+
 주요 특징인 Volnerability Scanning (취약점 검색) 을 수행하는 스캐너
 
-# Notary
+## Notary
+
 Docker 공식 프로젝트, 컨테이너 이미지에 대한 디지털 서명 및 검증을 제공한다.
 
-# Registry
-로드밸런싱, 장애대응을 위해 여러개의 Pod 으로 관리되지만
-MinIO, Longhorn 같은 외부 저장소를 활요하는 경우 harbor 내부 registry 를 사용하지 않는다..?-
+## Registry
+
+로드밸런싱, 장애대응을 위해 여러개의 Pod 으로 관리되지만\
+MinIO, Longhorn 같은 외부 저장소를 활요하는 경우 harbor 내부 registry 를 사용하지 않는다.
