@@ -3,6 +3,7 @@
 * [book](README.md)
 * [linux](linux/README.md)
   * [HAProxy redispatch](linux/haproxy-redispatch.md)
+  * [vim](linux/vim.md)
 * [Hadoop Ecosystem](hadoop-ecosystem/README.md)
   * [Kafka](hadoop-ecosystem/kafka/README.md)
     * [consumer.poll() & session.timeout.ms](hadoop-ecosystem/kafka/consumer_poll-session_timeout_ms.md)
